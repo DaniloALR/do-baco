@@ -1,0 +1,51 @@
+body{
+    background-color: #2e2e2e;
+}
+
+#cabecalho{
+    background-color: #9d64d6;
+}
+
+h1,h2,h3,h5{
+    font-family:'Varela Round', sans-serif;
+    color: #ff4800;
+}
+p,ul,label{
+    color: #fff;
+}
+.nav .nav-link.active,
+.button-form{
+    background-color: #ff4800;
+}
+
+.nav .nav-link{
+    color: #ff4800;
+}
+
+.img-carousel{
+    height: 800px;
+}
+
+.title{
+    font-size: 48px;
+    text-shadow: 2px 2px black;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.social-links i{
+    color: #ff4800;
+}
+
+@media(max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoBaco</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4 pb-4" id="cabecalho">
+        <div class="container">
+            <h1 class="fw-bold title">DoBaco</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-collapse">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" href="#sobre-a-loja">Sobre a loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#fale-conosco">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="container">
+                <div class="carousel slide" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 rounded img-carousel" src="/images/eliquid-3576069_1920.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 rounded img-carousel" src="/images/shisha-1423813_1920.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 rounded img-carousel" src="/images/shisha-3741794.jpg" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="d-block rounded w-100" src="/images/tabacaria-diego-studart-61.png" alt="">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="fw-bold mt-1">Sobre a loja</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, corrupti minus. Ad, optio aspernatur! Nihil, unde fugit. Totam at praesentium soluta consequatur nihil? Similique sapiente obcaecati provident dolorem unde in!</p>    
+                            <ul>
+                                <li>
+                                    Item 1
+                                </li>
+                                <li>
+                                    Item 2
+                                </li>
+                                <li>
+                                    Item 3
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="produtos">
+            <div class="container">
+                <div class="row mb-4">
+                    <h2 class="text-center fw-bold">Nossos produtos</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column">
+                            <button data-bs-toggle="tab" data-bs-target="#narguiles" type="button" class="nav-link fw-bold mb-1 mt-1 active">Narguiles</button>
+                            <button data-bs-toggle="tab" data-bs-target="#vapes" type="button" class="nav-link fw-bold mb-1 mt-1">Vapes</button>
+                            <button data-bs-toggle="tab" data-bs-target="#charutos" type="button" class="nav-link fw-bold mb-1 mt-1">Charutos</button>
+                            <button data-bs-toggle="tab" data-bs-target="#utensilios" type="button" class="nav-link fw-bold mb-1 mt-1">Utensílios</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div id="narguiles" class="tab-pane active">
+                                <div class="row">
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/narguiles/narguile-amazon-future-resina-safira-com-folhas-de-ouro-metal-rosa-vaso-rigado.jpg" alt="">
+                                        <h5 class="mt-1 mb-1">Narguile amazon future resina safira</h5>
+                                        <p class="text-center fs-4">R$592,54</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/narguiles/narguile-completo-zenith-river-resina-7.jpg" alt="">
+                                        <h5 class="mt-1 mb-1">Narguile zenith river resina 7</h5>
+                                        <p class="text-center fs-4">R$378,00</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/narguiles/narguile-pequeno-wow-de-acrilico-roxo-completo.jpg" alt="">
+                                        <h5 class="mt-1 mb-1">Narguile pequeno wow de acrilico roxo completo</h5>
+                                        <p class="text-center fs-4">R$55,93</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/narguiles/narguile-completo-medio-egipcio-monte-verde-acrilico-shisha-king-rosh-yes.jpg" alt="">
+                                        <h5 class="mt-1 mb-1">Narguile medio egipcio monte verde</h5>
+                                        <p class="text-center fs-4">R$99,90</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="vapes" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/vapes/pm40principal.jpg" alt="">
+                                        <h5 class="mt-1 mb-1">Luxe PM40 - Vaporesso</h5>
+                                        <p class="text-center fs-4">R$209,90</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/vapes/SSPPrincipal2.jpg" alt="">
+                                        <h5 class="mt-1 mb-1">Sky Solo Plus</h5>
+                                        <p class="text-center fs-4">R$129,90</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/vapes/vaporesso.jpg" alt="">
+                                        <h5 class="mt-1 mb-1">Vape Gen 160 Vaporesso</h5>
+                                        <p class="text-center fs-4">R$299,90</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/vapes/Zero2Princ.jpg" alt="">
+                                        <h5 class="mt-1 mb-1">Zero 2 - Vaporesso</h5>
+                                        <p class="text-center fs-4">R$129,90</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="charutos" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/charutos/charuto_cohiba_exquisitos_unidade_2361_1_e326e17f3d06c51fed1e72e23f9d5461.png" alt="">
+                                        <h5 class="mt-1 mb-1">Charuto Cohiba Exquisitos - unidade</h5>
+                                        <p class="text-center fs-4">R$349,90</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/charutos/charuto_h_upmann_connossieur_no_1_caixa_com_25_2579_1_c8638e6b0b20cda10b6cdac5a5a740ad.png" alt="">
+                                        <h5 class="mt-1 mb-1">Charuto H Upmann Connossieur NO.1 - caixa c/ 25</h5>
+                                        <p class="text-center fs-4">R$5.225,00</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/charutos/charuto_h_upmann_connossieur_no_1_unidade_2581_1_39b9d6a4e4ba3111ef18fadaaf9c081e.png" alt="">
+                                        <h5 class="mt-1 mb-1">Charuto H Upmann Connossieur NO.1 - unidade</h5>
+                                        <p class="text-center fs-4">R$222,90</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/charutos/charuto_romeu_e_julieta_belicosos_unidade_2879_1_ed04772f36bab3faa3b069036bd3c662.png" alt="">
+                                        <h5 class="mt-1 mb-1">Charuto Romeu e Julieta Belicosos - unidade</h5>
+                                        <p class="text-center fs-4">R$192,90</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="utensilios" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/utensilios/carvao-narguile-coco-maxx-hexagonal-500g.jpg" alt="">
+                                        <h5 class="mt-1 mb-1">Carvão Narguile Coco Maxx Hexagonal 500G</h5>
+                                        <p class="text-center fs-4">R$15,90</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/utensilios/rosh-narguile-mini-pro-hookah-rosa-rose.jpg" alt="">
+                                        <h5 class="mt-1 mb-1">Rosh Narguile Mini Pro Hookah Rosa Rose</h5>
+                                        <p class="text-center fs-4">R$25,90</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/utensilios/26cm-vaso-narguile-egipcio-sino-filete-dourado.jpg" alt="">
+                                        <h5 class="mt-1 mb-1">26CM Vaso Narguile Egípvio Sino Filete Dourado</h5>
+                                        <p class="text-center fs-4">R$44,93</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <img class="d-block w-100 rounded" src="images/utensilios/prato-narguile-hookah-zenith-kicker-personalizado.jpg" alt="">
+                                        <h5 class="mt-1 mb-1">Prato Narguile Hookah Zenith Kicker Personalisado</h5>
+                                        <p class="text-center fs-4">R$29,90</p>
+                                        <button class="btn btn-primary w-100" type="button">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="row">
+                        <h2 class="text-center mb-4">Fale conosco</h2>
+                    </div>
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Seu nome</label>
+                                <input type="text"class="form-control" id="nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Seu email</label>
+                                <input type="email"class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label">Seu telefone</label>
+                                <input type="tel"class="form-control" id="telefone" required>
+                            </div>
+                            <div class="mb-2">
+                                <label for="mensagem" class="form-label">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn button-form pe-4 ps-4 mb-3">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row mb-5">
+                            <h3>Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="me-1 ms-1">
+                                    <a href="#" class="fs-4">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="me-1 ms-1">
+                                    <a href="#" class="fs-4">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="me-1 ms-1">
+                                    <a href="#" class="fs-4">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3>Endereço</h3>
+                            <p>Rua Javascript, 123, Centro, São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
